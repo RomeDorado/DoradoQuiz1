@@ -10,7 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/lollipop"
+        android:src="@drawable/lollipop1"
         android:layout_marginTop="37dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
