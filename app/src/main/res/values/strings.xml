@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DoradoQuiz1</string>
+    <string-array name="codename">
+        <item>KitKat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+
+    </string-array>
+</resources>

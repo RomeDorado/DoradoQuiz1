@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dorado.doradoquiz1.MainActivity">
+
+    <ListView
+        android:id="@+id/lvFavorite"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Home"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/lvFavorite"
+        android:layout_alignStart="@+id/lvFavorite" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnHome"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toRightOf="@+id/btnHome"
+        android:text="1"
+
+        android:layout_alignTop="@+id/btnHome" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="14dp"
+        android:layout_toRightOf="@+id/btn1"
+        android:text="2"
+
+        android:layout_alignBottom="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toRightOf="@+id/btn2"
+        android:text="3"
+
+        android:layout_alignBottom="@+id/btn2" />
+
+</RelativeLayout>
